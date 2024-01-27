@@ -32,7 +32,7 @@ class Splash : AppCompatActivity() {
         } else {
             // If it's not the first time, start the main activity or any other activity
             Handler(Looper.getMainLooper()).postDelayed({
-                startActivity(Intent(this, NewMatchActivity::class.java))
+                startActivity(Intent(this, MatchAdd::class.java))
                 finish()
             }, 3000)
         }

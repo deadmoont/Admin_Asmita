@@ -2,12 +2,14 @@ package com.example.adminappasmita
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.adminappasmita.databinding.ActivityMainBinding
 
 class NewMatchActivity : AppCompatActivity() {
+    private lateinit var binding:ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
-
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_new_match)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         window.statusBarColor = 0xFF000000.toInt()
     }
