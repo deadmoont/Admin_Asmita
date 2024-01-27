@@ -29,7 +29,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NewMatchActivity"
+            android:name=".Main"
+            android:exported="false" />
+        <activity
+            android:name=".MatchAdd"
             android:exported="false" />
 
     </application>

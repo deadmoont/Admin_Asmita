@@ -1,5 +1,6 @@
 package com.example.adminappasmita
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
@@ -64,6 +65,8 @@ class MatchAdd : AppCompatActivity() {
                 && editText1Value.isNotEmpty() && editText2Value.isNotEmpty()
             ) {
                 saveDataToFirestore(selectedOption1, selectedOption2, editText1Value, editText2Value)
+                startActivity(Intent(this,Main::class.java))
+                finish()
             } else {
                 Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
             }
