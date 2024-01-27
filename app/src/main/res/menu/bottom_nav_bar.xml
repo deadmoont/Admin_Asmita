@@ -1,8 +1,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/navigation_match"
-        android:title="Match" />
+        android:title="Match"
+        android:icon="@drawable/tennisplayer"/>
     <item
         android:id="@+id/navigation_score"
-        android:title="Score" />
+        android:title="Score"
+        android:icon="@drawable/scoreboard"/>
+    <item
+        android:id="@+id/navigation_leaderboard"
+        android:title="Leaderboard"
+        android:icon="@drawable/highscore"/>
 </menu>

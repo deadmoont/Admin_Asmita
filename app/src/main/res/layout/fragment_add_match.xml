@@ -74,20 +74,23 @@
 
         <Button
             android:id="@+id/date"
+            android:textColor="#FFFFFF"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="Select Date"
-            android:backgroundTint="#0000FF"/>
+            android:backgroundTint="#6750a4"/>
 
 
         <Button
             android:id="@+id/Time"
+            android:textColor="#FFFFFF"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="Select Time"
-            android:backgroundTint="#0000FF"/>
+            android:backgroundTint="#6750a4"
+            />
 
     </LinearLayout>
 

@@ -24,6 +24,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:itemIconSize="0dp"
         app:menu="@menu/bottom_nav_bar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
