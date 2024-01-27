@@ -1,4 +1,4 @@
-package com.example.adminappasmita
+package com.example.adminappasmita.Activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -16,7 +16,7 @@ class Get_Started : AppCompatActivity() {
         window.statusBarColor = 0xFF000000.toInt()
 
         binding.getStartedBut.setOnClickListener {
-            startActivity(Intent(this,Main::class.java))
+            startActivity(Intent(this, Main::class.java))
             finish()
         }
     }

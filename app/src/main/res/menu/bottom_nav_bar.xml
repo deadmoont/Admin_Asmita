@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_match"
+        android:title="Match" />
+    <item
+        android:id="@+id/navigation_score"
+        android:title="Score" />
+</menu>

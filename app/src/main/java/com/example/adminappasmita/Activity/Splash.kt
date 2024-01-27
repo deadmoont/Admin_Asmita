@@ -1,4 +1,4 @@
-package com.example.adminappasmita
+package com.example.adminappasmita.Activity
 
 import android.content.Context
 import android.content.Intent

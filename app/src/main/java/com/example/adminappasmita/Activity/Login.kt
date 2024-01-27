@@ -1,7 +1,8 @@
-package com.example.adminappasmita
+package com.example.adminappasmita.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.adminappasmita.R
 
 class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
