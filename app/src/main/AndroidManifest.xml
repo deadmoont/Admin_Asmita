@@ -20,7 +20,7 @@
             android:exported="false" />
         <activity
             android:name=".Splash"
-            android:exported="true" >
+            android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,8 +29,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="false"/>
+            android:name=".NewMatchActivity"
+            android:exported="false" />
 
     </application>
 

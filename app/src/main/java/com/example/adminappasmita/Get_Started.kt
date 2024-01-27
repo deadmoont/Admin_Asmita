@@ -16,7 +16,7 @@ class Get_Started : AppCompatActivity() {
         window.statusBarColor = 0xFF000000.toInt()
 
         binding.getStartedBut.setOnClickListener {
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this,NewMatchActivity::class.java))
             finish()
         }
     }
