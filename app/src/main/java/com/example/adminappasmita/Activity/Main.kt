@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.example.adminappasmita.Adapter.AddedMatchAdapter
 import com.example.adminappasmita.DataClass.Match
+import com.example.adminappasmita.Fragment.Add
 import com.example.adminappasmita.Fragment.AddMatch
 import com.example.adminappasmita.Fragment.AddScore
 import com.example.adminappasmita.R
@@ -32,9 +33,9 @@ class Main : AppCompatActivity() {
                     return@OnNavigationItemSelectedListener true
                 }
                 R.id.navigation_match -> {
-                    if (supportFragmentManager.findFragmentById(R.id.fragmentContainer) !is AddMatch) {
+                    if (supportFragmentManager.findFragmentById(R.id.fragmentContainer) !is Add) {
                         getSupportFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
-                        loadFragment(AddMatch())
+                        loadFragment(Add())
                     }
                     return@OnNavigationItemSelectedListener true
                 }
