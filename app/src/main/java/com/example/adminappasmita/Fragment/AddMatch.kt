@@ -155,7 +155,7 @@ class AddMatch : Fragment() {
         editText1Value: String,
         editText2Value: String
     ) {
-        val collectionReference = firestore.collection("Match")
+        val collectionReference = firestore.collection("Schedule")
 
         val documentReference = collectionReference.document(UUID.randomUUID().toString())
         documentReference.set(
